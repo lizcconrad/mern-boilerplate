@@ -9,5 +9,6 @@ There is also configuration code that allows for extremely easy deployment to He
 
 One last note is that the current server code connects mongoose to `process.env.MONGODB_URI`. When deployed to Heroku using mlabs, this is the default variable for the production database. In order to develop on a local machine, you'll need a `.env` file in the outermost directory with either the URI for the Heroku instance, localhost, or any other mongo instance you're connecting to.
 
+mep
 
 happy coding 🤖 01110101 01110111 01110101
